@@ -7,9 +7,14 @@ import java.util.Map;
 /**
  * @author Pedro
  * 
- * Este padrao template method utiliza-se do methods hook (metodos ganchos) para criar
- * o metodo de template que neste caso é o gerarArquivo
- * metodos hooks processar e gerarConteudo
+ * Este padrao TEMPLATE METHOD utiliza-se do methods hook (metodos ganchos) para criar
+ * o metodo de template que neste caso os metodos hooks sao 
+ * gerarArquivo(String nome, Map<String, Object> propriedades);
+ * processar(byte[] bytes);
+ * gerarConteudo(Map<String, Object> propriedades);
+ *
+ * O problema deste padrao é caso exista uma implmementacao que utiliza-se de comportamentos em comum 
+ * existentes nas sub-classes. O que pode causar duplicação de codigo
  *
  */
 public abstract class GeradorArquivo {
