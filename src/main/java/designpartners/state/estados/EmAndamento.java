@@ -2,6 +2,11 @@ package designpartners.state.estados;
 
 import designpartners.state.model.SolicitacaoModel;
 
+/**
+ * @author Machine
+ *
+ * Representa um estado concreto
+ */
 public class EmAndamento extends State {
 
 	@Override

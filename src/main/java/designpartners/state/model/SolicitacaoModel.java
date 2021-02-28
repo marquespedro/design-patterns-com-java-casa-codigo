@@ -6,6 +6,11 @@ import java.util.Objects;
 
 import designpartners.state.estados.State;
 
+/**
+ * @author Machine
+ *
+ * Representa uma entidade 
+ */
 public class SolicitacaoModel {
 
 	private State estadoAtual = null;

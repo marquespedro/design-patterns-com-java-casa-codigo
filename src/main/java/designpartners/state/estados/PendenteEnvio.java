@@ -6,6 +6,12 @@ import java.util.stream.Collectors;
 
 import designpartners.state.model.SolicitacaoModel;
 
+
+/**
+ * @author Machine
+ *
+ * Representa um estado concreto
+ */
 public class PendenteEnvio extends State{
 
 	@Override

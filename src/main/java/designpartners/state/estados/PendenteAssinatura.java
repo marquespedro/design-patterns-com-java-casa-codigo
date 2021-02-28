@@ -4,6 +4,12 @@ import java.util.Arrays;
 
 import designpartners.state.model.SolicitacaoModel;
 
+
+/**
+ * @author Machine
+ *
+ * Representa um estado concreto
+ */
 public class PendenteAssinatura extends State {
 
 	@Override

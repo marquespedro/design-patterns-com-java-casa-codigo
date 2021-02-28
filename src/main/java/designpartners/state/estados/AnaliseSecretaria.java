@@ -5,6 +5,12 @@ import java.util.stream.Collectors;
 
 import designpartners.state.model.SolicitacaoModel;
 
+
+/**
+ * @author Machine
+ *
+ * Representa um estado concreto
+ */
 public class AnaliseSecretaria extends State {
 
 	@Override
