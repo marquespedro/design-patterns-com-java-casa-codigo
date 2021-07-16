@@ -1,4 +1,4 @@
-package designpartners.state.model;
+package model;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -11,7 +11,7 @@ import designpartners.state.estados.State;
  *
  * Representa uma entidade 
  */
-public class SolicitacaoModel {
+public class Solicitacao {
 
 	private State estadoAtual = null;
 

@@ -2,7 +2,7 @@ package designpartners.state.estados;
 
 import java.util.Arrays;
 
-import designpartners.state.model.SolicitacaoModel;
+import model.Solicitacao;
 
 
 /**
@@ -15,7 +15,7 @@ public class PendenteAssinatura extends State {
 	@Override
 	public State pendenteAssinatura() {
 		
-		SolicitacaoModel sm = getSolicitacao();
+		Solicitacao sm = getSolicitacao();
 		
 		sm.setEstadoAtual(this);
 		

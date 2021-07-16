@@ -1,11 +1,11 @@
 package designpartners.nullobject;
 
-import designpartners.factorymethod.model.Produto;
+import model.Produto;
 
 /**
  * @author Machine
  * 
- * o metodo consultar de estoque é um exemplo do padrao null object que  retorna uma instancia de ProdutoNulo 
+ * o metodo consultar de estoque ï¿½ um exemplo do padrao null object que  retorna uma instancia de ProdutoNulo 
  * caso nenhum produto seja encontrado,  assim evitamos retornar um valor null. 
  */
 public class Main {

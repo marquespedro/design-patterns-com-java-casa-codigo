@@ -4,7 +4,7 @@ import java.util.Objects;
 
 import designpartners.factorymethod.dao.DAO;
 import designpartners.factorymethod.dao.ProdutoDao;
-import designpartners.factorymethod.model.Produto;
+import model.Produto;
 
 public class ServicoProduto extends ServicoAbstrato<Produto> {
 

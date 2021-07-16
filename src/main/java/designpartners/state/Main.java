@@ -1,7 +1,7 @@
 package designpartners.state;
 
-import designpartners.state.model.SolicitacaoModel;
 import designpartners.state.negocio.SolicitacaoNegocio;
+import model.Solicitacao;
 
 public class Main {
 
@@ -9,7 +9,7 @@ public class Main {
 
 		SolicitacaoNegocio solicitacaoNegocio = new SolicitacaoNegocio();
 
-		SolicitacaoModel solicitacao = solicitacaoNegocio.criar();
+		Solicitacao solicitacao = solicitacaoNegocio.criar();
 		
 		System.out.println("1 - " + solicitacao);
 

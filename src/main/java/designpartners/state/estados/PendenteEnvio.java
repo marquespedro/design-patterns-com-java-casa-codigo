@@ -4,7 +4,7 @@ import java.util.List;
 import java.util.Objects;
 import java.util.stream.Collectors;
 
-import designpartners.state.model.SolicitacaoModel;
+import model.Solicitacao;
 
 
 /**
@@ -17,7 +17,7 @@ public class PendenteEnvio extends State{
 	@Override
 	public State pendenteEnvio() {
 		
-		SolicitacaoModel sm = getSolicitacao();
+		Solicitacao sm = getSolicitacao();
 		
 		sm.setEstadoAtual(this);	
 		sm.adicionarEstado(this);

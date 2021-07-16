@@ -5,7 +5,7 @@ import java.util.List;
 import java.util.Objects;
 import java.util.function.Predicate;
 
-import designpartners.factorymethod.model.Produto;
+import model.Produto;
 
 public class Estoque {
 

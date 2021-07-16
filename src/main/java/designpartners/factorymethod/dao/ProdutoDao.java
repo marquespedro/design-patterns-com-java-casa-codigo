@@ -2,7 +2,7 @@ package designpartners.factorymethod.dao;
 
 import java.util.List;
 
-import designpartners.factorymethod.model.Produto;
+import model.Produto;
 
 public class ProdutoDao implements DAO<Produto> {
 

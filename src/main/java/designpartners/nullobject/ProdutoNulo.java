@@ -1,6 +1,6 @@
 package designpartners.nullobject;
 
-import designpartners.factorymethod.model.Produto;
+import model.Produto;
 
 public class ProdutoNulo extends Produto {
 

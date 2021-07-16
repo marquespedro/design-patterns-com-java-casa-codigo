@@ -1,4 +1,4 @@
-package designpartners.factorymethod.model;
+package model;
 
 public class Produto {
 

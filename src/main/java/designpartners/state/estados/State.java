@@ -1,6 +1,6 @@
 package designpartners.state.estados;
 
-import designpartners.state.model.SolicitacaoModel;
+import model.Solicitacao;
 
 /**
  * @author Machine
@@ -9,11 +9,11 @@ import designpartners.state.model.SolicitacaoModel;
  * 
  * O padrao state evita a quantidade de if no codigo, melhorar a legibilidade e manutencao do mesmo.
  * Torna mais facil a inclusao de um novo estado.
- * Cada estado é responsável por lidar com sua logica.
+ * Cada estado ï¿½ responsï¿½vel por lidar com sua logica.
  */
 public abstract class State {
 
-	private SolicitacaoModel solicitacao;
+	private Solicitacao solicitacao;
 	
 	public State emAndamento() {
 		return null;
@@ -43,11 +43,11 @@ public abstract class State {
 		return null;
 	}
 
-	public void setSolicitacao(SolicitacaoModel solicitacao) {
+	public void setSolicitacao(Solicitacao solicitacao) {
 		this.solicitacao = solicitacao;
 	}
 
-	public SolicitacaoModel getSolicitacao() {
+	public Solicitacao getSolicitacao() {
 		return solicitacao;
 	}
 	

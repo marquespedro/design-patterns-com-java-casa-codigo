@@ -3,7 +3,7 @@ package designpartners.state.estados;
 import java.util.List;
 import java.util.stream.Collectors;
 
-import designpartners.state.model.SolicitacaoModel;
+import model.Solicitacao;
 
 
 /**
@@ -16,7 +16,7 @@ public class AnaliseSecretaria extends State {
 	@Override
 	public State analiseSecretataria() {
 		
-		SolicitacaoModel sm = getSolicitacao();
+		Solicitacao sm = getSolicitacao();
 		
 		sm.setEstadoAtual(this);
 		
@@ -29,7 +29,7 @@ public class AnaliseSecretaria extends State {
 	
 	private void transmitirDocumentos() {
 		
-		SolicitacaoModel sm = getSolicitacao();
+		Solicitacao sm = getSolicitacao();
 		
 		List<String> documentos = sm.getDocumentos().stream()
 									.map(d -> d + " - TRANSMITIDO")
