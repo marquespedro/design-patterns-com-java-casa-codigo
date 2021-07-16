@@ -3,6 +3,10 @@ package designpartners.strategy;
 import model.Constantes;
 import model.Veiculo;
 
+/**
+ * @author Machine
+ * representa a implementacao de um algoritmo para o atributo "calculo" da classe principal
+ */
 public class CalculoCarga implements CalculoValor{
 
 	

@@ -2,6 +2,11 @@ package designpartners.strategy;
 
 import model.Veiculo;
 
+/**
+ * @author Machine
+ * 
+ * Representa a classe principal que é composta pelo algortimo "calculo"
+ */
 public class ContaEstacionamento {
 
 	private CalculoValor calculo;
