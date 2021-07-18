@@ -1,4 +1,4 @@
-package designpartners.factorymethod.dao;
+package designpartners.heranca.factorymethod.dao;
 
 import java.util.List;
 

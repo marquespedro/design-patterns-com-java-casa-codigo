@@ -1,4 +1,4 @@
-package designpartners.nullobject;
+package designpartners.heranca.nullobject;
 
 import model.Produto;
 

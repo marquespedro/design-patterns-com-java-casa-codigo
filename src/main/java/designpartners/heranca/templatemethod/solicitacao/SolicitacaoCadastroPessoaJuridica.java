@@ -1,7 +1,7 @@
-package designpartners.templatemethod.solicitacao.gerador;
+package designpartners.heranca.templatemethod.solicitacao;
 
-import designpartners.templatemethod.solicitacao.model.Solicitacao;
-import designpartners.templatemethod.solicitacao.model.TipoSolicitacao;
+import model.Solicitacao;
+import model.TipoSolicitacao;
 
 public class SolicitacaoCadastroPessoaJuridica extends GeradorSolicitacao {
 

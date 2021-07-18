@@ -1,4 +1,4 @@
-package designpartners.hookmethods;
+package designpartners.heranca.hookmethods;
 
 /**
  * @author Machine

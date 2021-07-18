@@ -6,20 +6,20 @@ import designpartners.state.estados.EmAndamento;
 import designpartners.state.estados.PendenteAssinatura;
 import designpartners.state.estados.PendenteEnvio;
 import designpartners.state.estados.State;
-import model.Solicitacao;
+import model.Requisicao;
 
 public class SolicitacaoNegocio {
 
-	public Solicitacao criar() {
+	public Requisicao criar() {
 
-		Solicitacao solicitacao = new Solicitacao();
+		Requisicao solicitacao = new Requisicao();
 		State estado = new EmAndamento();
 		estado.setSolicitacao(solicitacao);
 		estado.emAndamento();
 		return solicitacao;
 	}
 
-	public Solicitacao concluir(Solicitacao solicitacao) {
+	public Requisicao concluir(Requisicao solicitacao) {
 
 		State estado = new PendenteAssinatura();
 		estado.setSolicitacao(solicitacao);
@@ -27,7 +27,7 @@ public class SolicitacaoNegocio {
 		return solicitacao;
 	}
 
-	public Solicitacao assinar(Solicitacao solicitacao) {
+	public Requisicao assinar(Requisicao solicitacao) {
 
 		State estado = new PendenteEnvio();
 		estado.setSolicitacao(solicitacao);
@@ -35,7 +35,7 @@ public class SolicitacaoNegocio {
 		return solicitacao;
 	}
 	
-	public Solicitacao transmitir(Solicitacao solicitacao) {
+	public Requisicao transmitir(Requisicao solicitacao) {
 
 		State estado = new AnaliseSecretaria();	
 		estado.setSolicitacao(solicitacao);
@@ -43,7 +43,7 @@ public class SolicitacaoNegocio {
 		return solicitacao;
 	}
 
-	public Solicitacao deferir(Solicitacao solicitacao) {
+	public Requisicao deferir(Requisicao solicitacao) {
 		
 		State estado = new Deferido();
 		estado.setSolicitacao(solicitacao);

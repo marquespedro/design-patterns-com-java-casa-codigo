@@ -1,6 +1,6 @@
 package designpartners.state.estados;
 
-import model.Solicitacao;
+import model.Requisicao;
 
 /**
  * @author Machine
@@ -13,7 +13,7 @@ import model.Solicitacao;
  */
 public abstract class State {
 
-	private Solicitacao solicitacao;
+	private Requisicao solicitacao;
 	
 	public State emAndamento() {
 		return null;
@@ -43,11 +43,11 @@ public abstract class State {
 		return null;
 	}
 
-	public void setSolicitacao(Solicitacao solicitacao) {
+	public void setSolicitacao(Requisicao solicitacao) {
 		this.solicitacao = solicitacao;
 	}
 
-	public Solicitacao getSolicitacao() {
+	public Requisicao getSolicitacao() {
 		return solicitacao;
 	}
 	

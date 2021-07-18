@@ -1,4 +1,4 @@
-package designpartners.templatemethod.geradorarquivo;
+package designpartners.heranca.templatemethod.geradorarquivo;
 
 import java.io.IOException;
 import java.util.HashMap;

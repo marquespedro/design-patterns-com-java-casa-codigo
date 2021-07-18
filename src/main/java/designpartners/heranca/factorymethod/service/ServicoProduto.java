@@ -1,19 +1,24 @@
-package designpartners.factorymethod.service;
+package designpartners.heranca.factorymethod.service;
 
 import java.util.Objects;
 
-import designpartners.factorymethod.dao.DAO;
-import designpartners.factorymethod.dao.ProdutoDao;
+import designpartners.heranca.factorymethod.dao.DAO;
+import designpartners.heranca.factorymethod.dao.ProdutoDao;
 import model.Produto;
 
 public class ServicoProduto extends ServicoAbstrato<Produto> {
+
 
 	private DAO<Produto> dao;
 
 	
 	/**
+	 * 
+	 * metodo de fabrica implementado
+	 * 
 	 * exemplo de um hook method definido na classe ServicoAbstrato 
-	 * que implementa o padrao de factory method
+	 * que delega para esta classe de servico implementar a criacao do DAO
+	 * definindo assim  o padrao de factory method.
 	 */
 	@Override
 	public DAO<Produto> getDAO() {

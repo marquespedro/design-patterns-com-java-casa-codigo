@@ -1,4 +1,4 @@
-package designpartners.hookmethods;
+package designpartners.heranca.hookmethods;
 
 public  class AgendadorTarefaComplexo extends Agendador {
 

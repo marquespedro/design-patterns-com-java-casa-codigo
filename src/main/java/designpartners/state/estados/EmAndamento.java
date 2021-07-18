@@ -1,6 +1,6 @@
 package designpartners.state.estados;
 
-import model.Solicitacao;
+import model.Requisicao;
 
 /**
  * @author Machine
@@ -12,7 +12,7 @@ public class EmAndamento extends State {
 	@Override
 	public State emAndamento() {
 		
-		Solicitacao sm = getSolicitacao();
+		Requisicao sm = getSolicitacao();
 		
 		sm.setEstadoAtual(this);
 		
