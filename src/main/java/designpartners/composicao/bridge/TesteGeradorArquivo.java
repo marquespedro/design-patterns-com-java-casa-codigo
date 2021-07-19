@@ -1,13 +1,17 @@
-package designpartners.bridge;
+package designpartners.composicao.bridge;
 
 import java.io.IOException;
 import java.util.HashMap;
 import java.util.Map;
 
-import designpartners.bridge.processador.Compactador;
-import designpartners.bridge.processador.Criptografador;
+import designpartners.composicao.bridge.gerador.GeradorArquivo;
+import designpartners.composicao.bridge.gerador.GeradorPropriedadesCriptografado;
+import designpartners.composicao.bridge.gerador.GeradorXMLCompactado;
+import designpartners.composicao.bridge.gerador.GeradorXMLCriptografado;
+import designpartners.composicao.bridge.processador.Compactador;
+import designpartners.composicao.bridge.processador.Criptografador;
 
-public class Main {
+public class TesteGeradorArquivo {
 
 	public static void main(String[] args) throws IOException {
 

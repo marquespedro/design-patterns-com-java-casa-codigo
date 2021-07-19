@@ -1,10 +1,10 @@
-package designpartners.bridge;
+package designpartners.composicao.bridge.gerador;
 
 import java.util.Map;
 
-public class GeradorXMLCompactado extends GeradorArquivo{
-
-
+public class GeradorXMLCriptografado extends GeradorArquivo {
+	
+	
 	@Override
 	protected String gerarConteudo(Map<String, Object> props) {
 

@@ -1,4 +1,4 @@
-package designpartners.bridge;
+package designpartners.composicao.bridge.gerador;
 
 import java.util.Map;
 

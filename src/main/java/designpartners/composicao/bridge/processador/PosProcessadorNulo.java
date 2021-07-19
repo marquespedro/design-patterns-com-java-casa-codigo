@@ -1,4 +1,4 @@
-package designpartners.bridge.processador;
+package designpartners.composicao.bridge.processador;
 
 import java.io.IOException;
 

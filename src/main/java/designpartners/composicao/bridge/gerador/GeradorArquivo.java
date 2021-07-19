@@ -1,12 +1,12 @@
-package designpartners.bridge;
+package designpartners.composicao.bridge.gerador;
 
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.util.Map;
 import java.util.Objects;
 
-import designpartners.bridge.processador.PosProcessador;
-import designpartners.bridge.processador.PosProcessadorNulo;
+import designpartners.composicao.bridge.processador.PosProcessador;
+import designpartners.composicao.bridge.processador.PosProcessadorNulo;
 
 /**
  * @author Pedro
@@ -29,14 +29,14 @@ import designpartners.bridge.processador.PosProcessadorNulo;
  * o padrao bridge a solucao fica bem mais flexivel.
  *
  * Um outro efeito colateral interessante e que a classe que implmementam um pos processamento podem ser utilizadas 
- * em um outro contexto de funcionalidade. 
+ * em um outro contexto de funcionalidade que nao tenha nada haver com a geracao de arquivo. 
  *  
  */
 public abstract class GeradorArquivo {
 
 	
 	/**
-	 * é a ponte (bridge) para compartilahr o codigo comum entre subclasses e evitar a duplicacao de codigo
+	 * ï¿½ a ponte (bridge) para compartilahr o codigo comum entre subclasses e evitar a duplicacao de codigo
 	 */
 	private PosProcessador posProcessador;
 	
